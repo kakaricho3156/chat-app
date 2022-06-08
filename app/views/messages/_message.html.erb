@@ -15,10 +15,6 @@
       <%=message.content%>
 
     </div>
-<<<<<<< Updated upstream
       <%= image_tag message.image.variant(resize:"500x500"), class: 'message-image' if message.image.attached? %>
-=======
-    <%= image_tag message.image,class:"message-image" if message.image.attached?%>
->>>>>>> Stashed changes
   </div>
 </div>
